@@ -381,7 +381,7 @@ class KeyListener(xbmcgui.WindowXMLDialog):
 	TIMEOUT = 5
 
 	def __new__(cls):
-		return super(KeyListener, cls).__new__(cls, "DialogKaiToast.xml", "")
+		return super(KeyListener, cls).__new__(cls, "DialogNotification.xml", "")
 
 	def __init__(self):
 		self.key = None

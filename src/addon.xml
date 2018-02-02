@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.keymap" name="Keymap Editor" version="1.0.4" provider-name="AMSD">
+<addon id="plugin.keymap" name="Keymap Editor" version="1.0.5" provider-name="AMSD">
 	<requires>
 		<import addon="xbmc.python" version="2.20.0"/>
 		<import addon="service.clue" version="1.1.0"/>
 	</requires>
 	<extension point="xbmc.python.script" library="default.py"/>
 	<extension point="xbmc.addon.metadata">
-		<summary>Remote Control Keymap Editor</summary>
-		<description>Keymap Editor is a GUI for configuring mappings for remotes, keyboard and other inputs supported by MCPi</description>
-		<platform>all</platform>
-		<language>en</language>
+		<summary lang="en">Remote Control Keymap Editor</summary>
+		<description lang="en">Keymap Editor is a GUI for configuring mappings for remotes, keyboard and other inputs supported by MCPi</description>
 	</extension>
 </addon>
