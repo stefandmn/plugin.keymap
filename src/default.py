@@ -3,8 +3,8 @@
 import os
 import sys
 import shutil
+import commons
 from editor import KeyEditor
-import Commons as commons
 import xml.etree.ElementTree as ET
 
 if hasattr(sys.modules["__main__"], "xbmc"):

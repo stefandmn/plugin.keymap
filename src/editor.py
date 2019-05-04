@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 import sys
 import json
-import Commons as commons
+import commons
 from threading import Timer
 from thread import get_ident as _get_ident
 from _abcoll import KeysView, ValuesView, ItemsView

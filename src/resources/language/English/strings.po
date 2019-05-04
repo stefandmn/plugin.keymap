@@ -1,6 +1,6 @@
 # MCPi language file
 # Addon Name: Keymap Editor
-# Addon id: plugin.keymap
+# Addon id: program.keymap
 # Addon Provider: AMSD
 msgid ""
 msgstr ""
